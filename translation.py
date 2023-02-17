@@ -32,9 +32,9 @@ URL | filename | username | password"""
     RCHD_TG_API_LIMIT = """<b>The file couldn't be uploaded</b>
 Sorry. I cannot upload files greater than 2GB due to Telegram API limitations.
 
-<b>▫️ File Detected:</b> {}
-<b>▫️ Downloaded:</b> in {} seconds
-<b>▫️ File Size:</b> {}"""
+▫️ File Detected:</b> {}
+▫️ Downloaded:</b> in {} seconds
+▫️ File Size:</b> {}"""
     UNKNOWN_ERROR = """Unknown error"""
     AFTER_SUCCESSFUL_UPLOAD_MSG = " Thanks for using @knoxprojects."
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = """◽ Downloaded in <b>{} seconds</b>
