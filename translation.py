@@ -9,15 +9,15 @@ Send me a direct link and I will upload it to telegram as a file/video.</b>
     ADD_CAPTION_HELP = """Select an uploaded file/video or forward me <b>Any Telegram File</b> and just write the text you want to be on the file <b>as a reply to the file</b> and the text you wrote will be attached as the caption! 🤩
     
 Ex: <a href='https://telegra.ph/file/198bcda5944f787373122.jpg'>See This!</a> 👇"""
-    INCORRECT_REQUEST = """<b>❗Make sure you submit your request correctly❗</b>
+    INCORRECT_REQUEST = """Make sure you submit your request correctly
     
 /help for more details!"""
     DISPLAY_PROGRESS = """[{0}{1}] {2}%
-<i>🗃️ {3}</i>
+ 🗃️ {3}
 
-<b>▫️Finished :</b> <i>{4} of {5}</i>
-<b>▫️Speed :</b> <i>{6}/s</i>
-<b>▫️Time left :</b> <i>{7}</i>"""
+▫️ Finished :</b> {4} of {5}
+▫️ Speed :</b> {6}/s
+▫️ Time Left :</b> {7}"""
     FORMAT_SELECTION = """<b>If you haven't set <a href='{}'>a thumbnail</a> before you can send a photo now. If you don't want to don't worry - You will get an auto genarated thumbnail from the video to your upload </b>
     
 𝗦𝗲𝗹𝗲𝗰𝘁 𝗔𝗻𝗱 𝗖𝗵𝗼𝘀𝗲 𝗬𝗼𝘂𝗿 𝗙𝗼𝗿𝗺𝗮𝘁
@@ -27,31 +27,27 @@ Ex: <a href='https://telegra.ph/file/198bcda5944f787373122.jpg'>See This!</a> �
 URL | filename | username | password"""
     DOWNLOAD_START = """<b>File detected:</b> {}
     
-<b>Downloading to my server... </b>
-
-Please wait uploading will start as soon as possible 😎"""
+<b>Downloading... </b>"""
     UPLOAD_START = "<b>Uploading to Telegram... </b>"
-    RCHD_TG_API_LIMIT = """<b>❗The file couldn't be uploaded❗</b>
+    RCHD_TG_API_LIMIT = """<b>The file couldn't be uploaded</b>
 Sorry. I cannot upload files greater than 2GB due to Telegram API limitations.
 
-<b>▫️File detected:</b> <i>{}</i>
-<b>▫️Downloaded:</b> <i>in {} seconds</i>
-<b>▫️Detected file size:</b> <i>{}</i>"""
-    UNKNOWN_ERROR = """<b>❗UNKNOWN ERROR❗</b>
-I don't know what just happened 🙃
-But I'm going to find out and fix it as soon as possible 🧐"""
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "👍 Thanks for using @knoxprojects."
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = """<i>◽ Downloaded in <b>{} seconds</b></i>
+<b>▫️ File Detected:</b> {}
+<b>▫️ Downloaded:</b> in {} seconds
+<b>▫️ File Size:</b> {}"""
+    UNKNOWN_ERROR = """Unknown error"""
+    AFTER_SUCCESSFUL_UPLOAD_MSG = " Thanks for using @knoxprojects."
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = """◽ Downloaded in <b>{} seconds</b>
 <i>◽ Uploaded in <b>{} seconds</b></i>"""
     SAVED_CUSTOM_THUMB_NAIL = "◽ Custom video/file thumbnail saved. This image will be used in the video/file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "◽ Custom thumbnail cleared succesfully."
     CUSTOM_CAPTION_UL_FILE = "{}"
-    NO_FILE_FOUND = """<b>❗I couldn't find any video/file❗</b>
+    NO_FILE_FOUND = """I couldn't find any video/file
 Go check if you can access the content in the URL from your browser first!"""
-    NO_VOID_FORMAT_FOUND = """<b>❗SOMETHING WENT WRONG❗</b>
-I think you have entered an unaccessible URL or a private URL (which only works with your IP).
+    NO_VOID_FORMAT_FOUND = """Something went wrong 
+I think you have entered an unaccessible URL or a private URL.
 
-<b>🚨Additional info:</b>
+Additional info:
 {}"""
     HELP_USER = """<b>How to use me?</b> 🤔
 Follow these steps! 👇
